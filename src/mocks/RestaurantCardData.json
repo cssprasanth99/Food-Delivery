@@ -1,0 +1,92 @@
+{
+  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+  "info": {
+    "id": "23683",
+    "name": "McDonald's",
+    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/20/87add0a1-71be-4114-8643-0b6528c23110_23683.jpg",
+    "locality": "2nd Stage",
+    "areaName": "Btm Layout",
+    "costForTwo": "₹400 for two",
+    "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+    "avgRating": 4.4,
+    "parentId": "630",
+    "avgRatingString": "4.4",
+    "totalRatingsString": "59K+",
+    "sla": {
+      "deliveryTime": 19,
+      "lastMileTravel": 1.3,
+      "serviceability": "SERVICEABLE",
+      "slaString": "15-20 mins",
+      "lastMileTravelString": "1.3 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2025-05-12 03:55:00",
+      "opened": true
+    },
+    "badges": {
+      "imageBadges": [
+        {
+          "imageId": "Ratnesh_Badges/Rx_Awards_2025/Bolt.png",
+          "description": "Delivery!"
+        }
+      ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {
+          "badgeObject": [
+            {
+              "attributes": {
+                "description": "Delivery!",
+                "imageId": "Ratnesh_Badges/Rx_Awards_2025/Bolt.png"
+              }
+            }
+          ]
+        },
+        "textBased": {},
+        "textExtendedBadges": {}
+      }
+    },
+    "aggregatedDiscountInfoV3": {
+      "header": "₹165 OFF",
+      "subHeader": "ABOVE ₹649",
+      "discountTag": "FLAT DEAL",
+      "headerTypeV2": 12
+    },
+    "orderabilityCommunication": {
+      "title": {},
+      "subTitle": {},
+      "message": {},
+      "customIcon": {}
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {},
+    "externalRatings": {
+      "aggregatedRating": {
+        "rating": "--"
+      }
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+  },
+  "analytics": {
+    "context": "seo-data-3db357a1-a58e-4243-8b10-6fde16118cf8"
+  },
+  "cta": {
+    "link": "https://www.swiggy.com/city/bangalore/mcdonalds-2nd-stage-btm-layout-rest23683",
+    "text": "RESTAURANT_MENU",
+    "type": "WEBLINK"
+  },
+  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}

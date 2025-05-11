@@ -1,6 +1,7 @@
 import FoodImage from "../assets/food-logo.png"; // Make sure the path is correct
 
 const RestaurantCard = ({ resData }) => {
+  // console.log(resData);
   if (!resData?.info) {
     return null;
   }
@@ -13,7 +14,10 @@ const RestaurantCard = ({ resData }) => {
     : FoodImage; // fallback to local FoodImage.jpg if no image
 
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+    <div
+      data-testid="resCard"
+      className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+    >
       <img className="w-full h-48 object-cover" src={imageUrl} alt={name} />
       <div className="p-4">
         <h3 className="text-lg font-semibold truncate">{name}</h3>
@@ -22,8 +26,10 @@ const RestaurantCard = ({ resData }) => {
         </p>
 
         <div className="flex items-center justify-between mt-4 text-sm">
-          <span className="bg-green-100 text-green-800 px-2 py-1 rounded">
-            {avgRating ? `${avgRating} ★` : "No Ratings"}
+          <span data-testid="rating">
+            <span className="bg-green-100 text-green-800 px-2 py-1 rounded">
+              {avgRating ? `${avgRating} ★` : "No Ratings"}
+            </span>
           </span>
           <span className="text-gray-700">{costForTwo}</span>
         </div>

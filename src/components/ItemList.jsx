@@ -15,6 +15,7 @@ const ItemList = ({ data }) => {
     <div className="space-y-6">
       {data.map((item) => (
         <div
+          data-testid="Items"
           key={item.card.info.id}
           className="flex gap-6 items-start border-b border-gray-100 py-5 px-4 bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 ease-in-out"
         >

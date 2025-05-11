@@ -35,7 +35,9 @@ const Cart = () => {
           </p>
         </div>
       ) : (
-        <ItemList data={cartItems} />
+        <div data-testid="cart-items">
+          <ItemList data={cartItems} />
+        </div>
       )}
     </div>
   );

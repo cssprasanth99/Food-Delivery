@@ -80,6 +80,7 @@ const Body = () => {
               }}
             />
             <button
+              data-testid="topRatedBtn"
               className="px-5 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
               onClick={() => {
                 const filteredList = allRestaurants.filter(
